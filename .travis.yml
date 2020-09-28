@@ -19,6 +19,6 @@ before_install:
 
 install:
    - ./bin/arduino-cli lib install u8g2
-
+   - ./bin/arduino-cli core install arduino:avr
 script:
    - ./bin/arduino-cli compile -b arduino:avr:uno u8g2test --verbose
