@@ -307,8 +307,8 @@ void drawURL(void)
 void loop(void) {
   u8g2.firstPage();
   do {
-    drawLogo();
-    drawURL();
+    drawLogo()
+    drawURL()
   } while ( u8g2.nextPage() );
   delay(4000);
 }
